@@ -134,6 +134,7 @@
     <None Include="Resources\slide_note_down_white.png" />
     <None Include="Resources\damage_white.png" />
     <None Include="Resources\XLNoteWhite.png" />
+    <None Include="Resources\trueslide_checkpoint.png" />
     <Content Include="twxicon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

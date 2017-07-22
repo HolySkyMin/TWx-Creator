@@ -78,7 +78,7 @@ namespace TWx_Creator
 
         private void ProgramInfoBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("TWx Creator 0.1 with TWx 1.0 and TWxScript 0.1" + Environment.NewLine + Environment.NewLine + "Check the update and new information via Twitter '@Tempest_Wave'.", "Program Info");
+            MessageBox.Show("TWx Creator 0.1.1 with TWx 1.0 and TWxScript 0.1" + Environment.NewLine + Environment.NewLine + "Check the update and new information via Twitter '@Tempest_Wave'.", "Program Info");
         }
 
         private void CompileBtn_Click(object sender, EventArgs e)
@@ -311,7 +311,7 @@ namespace TWx_Creator
 
                     PreviewForm prevForm = new PreviewForm(NoteList);
                     prevForm.Show();
-                    UpdateLog("Successfully generated preview." + ExportDialog.FileName);
+                    UpdateLog("Successfully generated preview.");
                 }
                 catch (Exception ex)
                 {
