@@ -308,7 +308,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MinimumSize = new System.Drawing.Size(721, 554);
             this.Name = "MainField";
-            this.Text = "TWx Creator 0.1.2";
+            this.Text = "TWx Creator 0.1.3";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainField_FormClosing);
             this.Load += new System.EventHandler(this.MainField_Load);
             this.ButtonsPanel.ResumeLayout(false);

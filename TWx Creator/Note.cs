@@ -7,12 +7,12 @@ namespace TWx_Creator
 {
     public class NoteData
     {
-        public string version { get; }
+        public int version { get; }
         public Note[] notes { get; set; }
 
         public NoteData()
         {
-            version = "1.0";
+            version = 1;
         }
     }
 
